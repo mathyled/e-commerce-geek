@@ -3,12 +3,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 20px;
 }
 
-figure{
-    background-image: url(/img/banner.png); 
-    height: 352px;
-}
 
 .search-input{
     display: flex;
