@@ -2,12 +2,34 @@ li{
     list-style: none;
 }
 
+
+
 .galery__title{
     display: flex;
     margin: 0px 50px 0px 40px;
     justify-content: space-between;
 }
+.galery__title span{
+    font-weight: bold;
+    font-size: 22px;
+}
 
+.galery__title a{
+    text-decoration: none;
+    color:#2A7AE4
+}
+
+.galery__container li{
+    display: flex;
+    width: 220px;
+    flex-direction: column;
+}
+
+.galery__ul li a{
+ color: #2A7AE4;
+ text-decoration: none;
+
+}
 .galery__container{
 }
 
@@ -16,9 +38,11 @@ li{
 }
 
 .galery__ul img{
-    width: 70%;
+    /* width: 70%; */
+    width: 140px;
 }
 
 section{
     margin: 40px 0px 40px 0px;
+    color:#464646
 }
