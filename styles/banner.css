@@ -2,7 +2,7 @@
 .banner__figure{
     display: flex;
     align-items: flex-end;
-    background-image: url(/img/banner.png); 
+    background-image: url(/assets/banner.png); 
     background-repeat: no-repeat;
     background-size: auto;
     height: 352px;
